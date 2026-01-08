@@ -134,6 +134,14 @@ export default async function decorate(block) {
 
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
+    // Remove button classes from all navigation links
+    navSections.querySelectorAll('.button').forEach((button) => {
+      button.classList.remove('button');
+    });
+    navSections.querySelectorAll('.button-container').forEach((container) => {
+      container.classList.remove('button-container');
+    });
+
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
       navSection.addEventListener('click', () => {

@@ -14,14 +14,14 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  color: var(--sherwin-chroma-body-text-color-paragraph, var(--background-color));
 }
 
 .hero p {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  color: var(--sherwin-chroma-body-text-color-paragraph, var(--background-color));
 }
 
 .hero .button {

@@ -97,6 +97,10 @@ blockquote {
   margin-bottom: 0.25em;
 }
 
+p {
+  font-size: var(--sherwin-chroma-body-text-size-paragraph, inherit);
+}
+
 code,
 pre {
   font-size: var(--body-font-size-s);
