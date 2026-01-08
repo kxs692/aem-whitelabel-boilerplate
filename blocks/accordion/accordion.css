@@ -1,10 +1,10 @@
 .accordion details {
-  border: 1px solid #dadada;
+  border: 1px solid var(--sherwin-chroma-color-neutral-lighter, #dadada);
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
-  margin-top: 24px;
+  margin-top: var(--sherwin-chroma-space-padding-xxlarge, 24px);
 }
 
 .accordion details p {
@@ -13,7 +13,7 @@
 
 .accordion details summary {
   position: relative;
-  padding: 0 16px;
+  padding: 0 var(--sherwin-chroma-space-padding-large, 16px);
   padding-right: 46px;
   cursor: pointer;
   list-style: none;

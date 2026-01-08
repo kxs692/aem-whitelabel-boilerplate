@@ -186,8 +186,8 @@
 }
 
 .form .form-field.toggle-field label input:disabled + span {
-  border-color: #d1d1d1;
-  background-color: #d1d1d1;
+  border-color: var(--sherwin-chroma-color-neutral-lighter, #d1d1d1);
+  background-color: var(--sherwin-chroma-color-neutral-lighter, #d1d1d1);
   cursor: default;
 }
 
