@@ -1,1 +1,5 @@
-// add delayed functionality here
+/*
+ * Entry point for the delayed phase - loads consent-check.js, which gates
+ * all consent-dependent scripts.
+ */
+import './consent-check.js';
