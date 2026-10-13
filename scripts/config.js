@@ -16,5 +16,7 @@
  *     gatePurposes: ['your_purpose_code'],
  *   },
  * };
+ *
+ * See docs/consent.md.
  */
 window.BRAND_CONFIG = {};

@@ -2,6 +2,8 @@
  * Ketch cookie consent - delayed-phase entry point (Adobe CMP pattern).
  * Loaded by delayed.js after the delayed-phase timer. Injects Ketch and
  * gates scripts/consented.js behind an explicit consent decision.
+ * See https://www.aem.live/developer/cmp-integration,
+ * https://www.npmjs.com/package/@ketch-sdk/ketch-tag and docs/consent.md.
  */
 
 const config = (window.BRAND_CONFIG || {}).ketch;

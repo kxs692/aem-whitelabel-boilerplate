@@ -13,6 +13,8 @@ Before using the aem-boilerplate, we recommand you to go through the documentati
 3. [Web Performance](https://www.aem.live/developer/keeping-it-100)
 4. [Markup, Sections, Blocks, and Auto Blocking](https://www.aem.live/developer/markup-sections-blocks)
 
+See [docs/consent.md](docs/consent.md) for how consent and third-party scripts work in this project.
+
 ## Installation
 
 ```sh
